@@ -1,11 +1,11 @@
 import Logo from './Media/Logo.svg';
+import './Header.css';
 
 function Header() {
     return (
-        <Header>
-            <h1>Brand Logo</h1>
+        <header>
             <img src={Logo} alt='Logo'></img>
-        </Header>
+        </header>
     )
 }
 

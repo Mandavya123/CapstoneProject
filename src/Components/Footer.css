@@ -1,0 +1,14 @@
+footer {
+    grid-area: footer;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#navigation, #contact {
+    display: flex;
+    flex-direction: column;
+}
+#footerlogo {
+    height: 80px;
+}
