@@ -1,15 +1,16 @@
+import {Link} from 'react-router-dom';
 import './Nav.css'
 
 function Nav() {
     return (
         <nav>
-            <ul id='navigator1'>
-                <li><a href="https://google.com">Home</a></li>
-                <li><a href="https://google.com">About</a></li>
-                <li><a href="https://google.com">Menu</a></li>
-                <li><a href="https://google.com">Reservations</a></li>
-                <li><a href="https://google.com">Order Online</a></li>
-                <li><a href="https://google.com">Login</a></li>
+            <ul id='navigator'>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/About">About</Link></li>
+                <li><Link to="/Menu">Menu</Link></li>
+                <li><Link to="/Reservation">Reservations</Link></li>
+                <li><Link to="/Orderonline">Order Online</Link></li>
+                <li><Link to="/Login">Login</Link></li>
             </ul>
         </nav>
     )

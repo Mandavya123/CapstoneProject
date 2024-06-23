@@ -1,13 +1,4 @@
-main {
+#homemain {
     grid-area: main;
-    margin: 10px;
-}
-
-article {
-    font: 16pt Karla;
-}
-
-button {
-    border-radius: 16pt;
-    font: 16pt Markazi Text;
+    padding: 5px;
 }

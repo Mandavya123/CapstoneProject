@@ -1,14 +1,29 @@
 footer {
     grid-area: footer;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    padding: 5px;
+    grid-template-areas: "footerlogo footernav contact";
+    background-color: #495e57;
 }
 
-#navigation, #contact {
-    display: flex;
-    flex-direction: column;
+#footernav, #contact {
+    color: white;
 }
+
+#footernav h5, #contact h5 {
+    font: 16pt 'Markazi Text' bold;
+}
+
+#footernav ul, #contact ul {
+    list-style: none;
+    font: 16pt Karla;
+}
+
 #footerlogo {
     height: 80px;
+}
+
+#footernav a {
+    text-decoration: none;
+    color: white;
 }

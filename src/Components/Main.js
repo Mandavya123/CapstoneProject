@@ -1,14 +1,23 @@
 import './Main.css';
+import { Routes, Route } from 'react-router-dom';
+import About from './About';
+import Reservation from './Reservation';
+import Home from './Home';
+import Menu from './Menu';
+import Orderonline from './Orderonline';
+import Login from './Login';
 
 function Main() {
     return (
-        <main>
-            <article>
-            <h1>Little Lemon</h1>
-            <h5>Chicago</h5>
-            <p>Little lemon is a charming neighborhood bistro thatserves simple food and classic coktails in a lively but casual environment. The restaurant features a locally-sourced menu with daily specials.</p>
-            </article>
-            <button>Reserve a Table</button>
+        <main id='homemain'>
+            <Routes>
+                <Route path='/' element={<Home />}></Route>
+                <Route path='/About' element={<About />}></Route>
+                <Route path='/Menu' element={<Menu />}></Route>
+                <Route path='/Reservation' element={<Reservation />}></Route>
+                <Route path='/Orderonline' element={<Orderonline />}></Route>
+                <Route path='/Login' element={<Login />}></Route>
+            </Routes>
         </main>
     )
 }

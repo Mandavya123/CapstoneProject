@@ -1,27 +1,30 @@
 nav {
     grid-area: nav;
-    margin: 10px;
+    padding: 5px;
 }
 
-#navigator1 {
+#navigator {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-li {
+#navigator li {
     list-style: none;
     font-family: 'Markazi Text';
     font-size: 16pt;
+    font-weight: 600;
 }
 
-li:hover {
+#navigator a:hover {
     font-size: 18pt;
     transition: 0.3s;
+    border-bottom: 1px black solid;
+    color: rgb(240, 176, 93);
 }
 
-a {
+#navigator a {
     text-decoration: none;
     color: black;
 }

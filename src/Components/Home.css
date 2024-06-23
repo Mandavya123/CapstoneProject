@@ -1,0 +1,9 @@
+#intro {
+    font: 16pt Karla;
+}
+
+#reservation {
+    border-radius: 16pt;
+    font: 16pt 'Markazi Text';
+    background-color: rgb(97, 73, 121);
+}
